@@ -7,15 +7,17 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { ProfileComponent } from './header/profile/profile.component';
 import { SearchComponent } from './header/search/search.component';
 import { SidenavComponent } from './sidebar/sidenav/sidenav.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SidebarComponent,
     ProfileComponent,
     SearchComponent,
-    SidenavComponent
+    SidebarComponent,
+    SidenavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
