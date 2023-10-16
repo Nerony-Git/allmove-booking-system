@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ProfileComponent } from './header/profile/profile.component';
 import { SearchComponent } from './header/search/search.component';
+import { SidenavComponent } from './sidebar/sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SearchComponent } from './header/search/search.component';
     HeaderComponent,
     SidebarComponent,
     ProfileComponent,
-    SearchComponent
+    SearchComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule
