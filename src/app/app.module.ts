@@ -13,6 +13,9 @@ import { BreadcrumbHomeComponent } from './dashboard/breadcrumb-home/breadcrumb-
 import { NotificaionComponent } from './header/notificaion/notificaion.component';
 import { BookingsComponent } from './bookings/bookings.component';
 import { BookingsdataComponent } from './bookings/bookingsdata/bookingsdata.component';
+import { ProfilePageComponent } from './profile-page/profile-page.component';
+import { BreadcrumbProfileComponent } from './profile-page/breadcrumb-profile/breadcrumb-profile.component';
+import { ProfileSectionComponent } from './profile-page/profile-section/profile-section.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { BookingsdataComponent } from './bookings/bookingsdata/bookingsdata.comp
     BreadcrumbHomeComponent,
     NotificaionComponent,
     BookingsComponent,
-    BookingsdataComponent
+    BookingsdataComponent,
+    ProfilePageComponent,
+    BreadcrumbProfileComponent,
+    ProfileSectionComponent
   ],
   imports: [
     BrowserModule
