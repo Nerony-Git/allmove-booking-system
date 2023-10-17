@@ -16,6 +16,7 @@ import { BookingsdataComponent } from './bookings/bookingsdata/bookingsdata.comp
 import { ProfilePageComponent } from './profile-page/profile-page.component';
 import { BreadcrumbProfileComponent } from './profile-page/breadcrumb-profile/breadcrumb-profile.component';
 import { ProfileSectionComponent } from './profile-page/profile-section/profile-section.component';
+import { ProfileOverviewComponent } from './profile-page/profile-overview/profile-overview.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ProfileSectionComponent } from './profile-page/profile-section/profile-
     BookingsdataComponent,
     ProfilePageComponent,
     BreadcrumbProfileComponent,
-    ProfileSectionComponent
+    ProfileSectionComponent,
+    ProfileOverviewComponent
   ],
   imports: [
     BrowserModule
