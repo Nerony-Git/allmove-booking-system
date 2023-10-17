@@ -8,6 +8,7 @@ import { ProfileComponent } from './header/profile/profile.component';
 import { SearchComponent } from './header/search/search.component';
 import { SidenavComponent } from './sidebar/sidenav/sidenav.component';
 import { FooterComponent } from './footer/footer.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     SearchComponent,
     SidebarComponent,
     SidenavComponent,
-    FooterComponent
+    FooterComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule
