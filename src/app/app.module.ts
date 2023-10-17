@@ -10,6 +10,7 @@ import { SidenavComponent } from './sidebar/sidenav/sidenav.component';
 import { FooterComponent } from './footer/footer.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { BreadcrumbHomeComponent } from './dashboard/breadcrumb-home/breadcrumb-home.component';
+import { NotificaionComponent } from './header/notificaion/notificaion.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BreadcrumbHomeComponent } from './dashboard/breadcrumb-home/breadcrumb-
     SidenavComponent,
     FooterComponent,
     DashboardComponent,
-    BreadcrumbHomeComponent
+    BreadcrumbHomeComponent,
+    NotificaionComponent
   ],
   imports: [
     BrowserModule
