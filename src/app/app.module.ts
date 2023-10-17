@@ -9,6 +9,7 @@ import { SearchComponent } from './header/search/search.component';
 import { SidenavComponent } from './sidebar/sidenav/sidenav.component';
 import { FooterComponent } from './footer/footer.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { BreadcrumbHomeComponent } from './dashboard/breadcrumb-home/breadcrumb-home.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     SidebarComponent,
     SidenavComponent,
     FooterComponent,
-    DashboardComponent
+    DashboardComponent,
+    BreadcrumbHomeComponent
   ],
   imports: [
     BrowserModule
