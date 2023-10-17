@@ -19,6 +19,7 @@ import { ProfileSectionComponent } from './profile-page/profile-section/profile-
 import { ProfileOverviewComponent } from './profile-page/profile-overview/profile-overview.component';
 import { ProfileInformationEdirComponent } from './profile-page/profile-information-edir/profile-information-edir.component';
 import { ProfileAccountInformationComponent } from './profile-page/profile-account-information/profile-account-information.component';
+import { ProfileChangePasswordComponent } from './profile-page/profile-change-password/profile-change-password.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ProfileAccountInformationComponent } from './profile-page/profile-accou
     ProfileSectionComponent,
     ProfileOverviewComponent,
     ProfileInformationEdirComponent,
-    ProfileAccountInformationComponent
+    ProfileAccountInformationComponent,
+    ProfileChangePasswordComponent
   ],
   imports: [
     BrowserModule
