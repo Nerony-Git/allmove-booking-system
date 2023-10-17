@@ -12,6 +12,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { BreadcrumbHomeComponent } from './dashboard/breadcrumb-home/breadcrumb-home.component';
 import { NotificaionComponent } from './header/notificaion/notificaion.component';
 import { BookingsComponent } from './bookings/bookings.component';
+import { BookingsdataComponent } from './bookings/bookingsdata/bookingsdata.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BookingsComponent } from './bookings/bookings.component';
     DashboardComponent,
     BreadcrumbHomeComponent,
     NotificaionComponent,
-    BookingsComponent
+    BookingsComponent,
+    BookingsdataComponent
   ],
   imports: [
     BrowserModule
