@@ -18,6 +18,7 @@ import { BreadcrumbProfileComponent } from './profile-page/breadcrumb-profile/br
 import { ProfileSectionComponent } from './profile-page/profile-section/profile-section.component';
 import { ProfileOverviewComponent } from './profile-page/profile-overview/profile-overview.component';
 import { ProfileInformationEdirComponent } from './profile-page/profile-information-edir/profile-information-edir.component';
+import { ProfileAccountInformationComponent } from './profile-page/profile-account-information/profile-account-information.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ProfileInformationEdirComponent } from './profile-page/profile-informat
     BreadcrumbProfileComponent,
     ProfileSectionComponent,
     ProfileOverviewComponent,
-    ProfileInformationEdirComponent
+    ProfileInformationEdirComponent,
+    ProfileAccountInformationComponent
   ],
   imports: [
     BrowserModule
